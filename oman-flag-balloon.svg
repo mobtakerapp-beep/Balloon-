@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440">
+  <defs>
+    <clipPath id="balloon"><path d="M200 18C104 18 36 89 36 184c0 97 67 174 164 205 97-31 164-108 164-205C364 89 296 18 200 18Z"/></clipPath>
+    <radialGradient id="shine" cx="28%" cy="18%" r="85%"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".35" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#001" stop-opacity=".25"/></radialGradient>
+    <linearGradient id="foil" x1="0" x2="1"><stop stop-color="#fff" stop-opacity=".18"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#001" stop-opacity=".15"/></linearGradient>
+  </defs>
+  <g clip-path="url(#balloon)">
+    <rect x="25" y="10" width="350" height="430" fill="#d90018"/>
+    <path d="M200 12H380V176H205Q200 176 200 170Z" fill="#fff"/>
+    <path d="M200 230H380V420H200Z" fill="#00843d"/>
+    <path d="M200 230H380V420H200Z" fill="#00843d" opacity=".18"/>
+    <g transform="translate(90 70) scale(.8)" fill="#f5d442" stroke="#f5d442" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M40 0L46 28 68 10 53 34 83 34 54 43 71 65 47 49 40 78 34 49 10 65 27 43 0 34 29 34 12 10 34 28Z" stroke="none"/>
+      <path d="M36 70Q40 55 44 70L49 94Q40 101 31 94Z" stroke-width="3"/>
+      <path d="M25 82L55 82M26 88L54 88M31 94L49 94" fill="none" stroke-width="3"/>
+      <path d="M39 96L39 124M45 96L45 124" fill="none" stroke-width="4"/>
+      <path d="M30 111L54 111M28 117L56 117" fill="none" stroke-width="4"/>
+      <path d="M39 124Q18 143 7 125Q17 144 39 132M45 124Q66 143 77 125Q67 144 45 132" fill="none" stroke-width="5"/>
+    </g>
+    <path d="M200 18C104 18 36 89 36 184c0 97 67 174 164 205 97-31 164-108 164-205C364 89 296 18 200 18Z" fill="url(#shine)"/>
+    <path d="M200 18C104 18 36 89 36 184c0 97 67 174 164 205 97-31 164-108 164-205C364 89 296 18 200 18Z" fill="url(#foil)"/>
+    <g fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="2">
+      <path d="M70 88Q35 184 86 287"/><path d="M94 53Q62 184 105 319"/><path d="M128 31Q100 184 132 345"/>
+      <path d="M330 88Q365 184 314 287"/><path d="M306 53Q338 184 295 319"/><path d="M272 31Q300 184 268 345"/>
+    </g>
+  </g>
+  <path d="M183 385L200 403 217 385Z" fill="#b8b8b8" stroke="#777" stroke-width="2"/>
+  <path d="M200 403C195 414 205 420 200 438" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M200 403C208 414 199 420 207 430" fill="none" stroke="#d90018" stroke-width="2" stroke-linecap="round"/>
+  <path d="M200 18C104 18 36 89 36 184c0 97 67 174 164 205 97-31 164-108 164-205C364 89 296 18 200 18Z" fill="none" stroke="#8b1d25" stroke-opacity=".5" stroke-width="4"/>
+</svg>
